@@ -5,9 +5,9 @@
   
   <link href="/Blog/atom.xml" rel="self"/>
   
-  <link href="https://gitee.com/zer0_1s/Blog/"/>
+  <link href="https://zer0_1s.gitee.io/blog/"/>
   <updated>2020-07-09T15:25:33.028Z</updated>
-  <id>https://gitee.com/zer0_1s/Blog/</id>
+  <id>https://zer0_1s.gitee.io/blog/</id>
   
   <author>
     <name>zer0_1s</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://gitee.com/zer0_1s/Blog/2020/07/11/ret2shellcode/"/>
-    <id>https://gitee.com/zer0_1s/Blog/2020/07/11/ret2shellcode/</id>
+    <link href="https://zer0_1s.gitee.io/blog/2020/07/11/ret2shellcode/"/>
+    <id>https://zer0_1s.gitee.io/blog/2020/07/11/ret2shellcode/</id>
     <published>2020-07-11T08:17:55.771Z</published>
     <updated>2020-07-09T15:25:33.028Z</updated>
     
@@ -40,8 +40,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://gitee.com/zer0_1s/Blog/2020/07/09/hello-world/"/>
-    <id>https://gitee.com/zer0_1s/Blog/2020/07/09/hello-world/</id>
+    <link href="https://zer0_1s.gitee.io/blog/2020/07/09/hello-world/"/>
+    <id>https://zer0_1s.gitee.io/blog/2020/07/09/hello-world/</id>
     <published>2020-07-09T15:25:33.028Z</published>
     <updated>2020-07-09T15:25:33.028Z</updated>
     
