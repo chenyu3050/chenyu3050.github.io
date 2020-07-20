@@ -6,7 +6,7 @@
   <link href="/chenyu3050.github.io/atom.xml" rel="self"/>
   
   <link href="https://chenyu3050.github.io/"/>
-  <updated>2020-07-09T15:25:33.028Z</updated>
+  <updated>2020-07-20T11:45:49.834Z</updated>
   <id>https://chenyu3050.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>prelink</title>
+    <link href="https://chenyu3050.github.io/2020/07/20/prelink/"/>
+    <id>https://chenyu3050.github.io/2020/07/20/prelink/</id>
+    <published>2020-07-20T11:07:07.973Z</published>
+    <updated>2020-07-20T11:45:49.834Z</updated>
+    
+    <content type="html"><![CDATA[<hr><h2 id="编译与链接"><a href="#编译与链接" class="headerlink" title="编译与链接"></a>编译与链接</h2><p>##被隐藏的过程<br>    $gcc hello.c<br>    $./a.out<br>    Hello world!<br><strong>从源代码到可执行程序之间发生了什么？</strong></p><h3 id="第一步-预编译"><a href="#第一步-预编译" class="headerlink" title="第一步|预编译"></a>第一步|预编译</h3><pre><code>gcc -E hello.c -o hello.i                 #Ccpp hello.c &gt; hello.i                    #C++</code></pre><ul><li>删除#define,展开对应的宏定义</li><li>处理条件预编译指令，#if,#ifdef,#else等</li><li>递归讲#include包含文件插入对应位置</li><li>删除注释，添加行号，文件明标识，方便调试</li><li>保留下面编译用的#prama编译器指令</li></ul>###第二步 | 编译    gcc -S hello.i -o hello.s    cc1 hello.c                #合并预编译，编译    gcc -S hello.c -o hello.s  #合并预编译，编译<strong>对预处理的文件词法，语法，语义分析，并优化</strong>###第三步 | 汇编    as hello.s -o hello.o  #as 是汇编器    gcc -c hello.s -o hello.o     gcc -c hello.c -o hello.o #产生目标文件<strong>从汇编代码到机器指令</strong>###第四步 | 链接]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;hr&gt;
+&lt;h2 id=&quot;编译与链接&quot;&gt;&lt;a href=&quot;#编译与链接&quot; class=&quot;headerlink&quot; title=&quot;编译与链接&quot;&gt;&lt;/a&gt;编译与链接&lt;/h2&gt;&lt;p&gt;##被隐藏的过程&lt;br&gt;    $gcc hello.c&lt;br&gt;    $./a.out&lt;br&gt;    H
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
