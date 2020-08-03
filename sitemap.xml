@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zer0_1s.gitee.io/2020/08/01/ROP__libc_csu_init%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2020-08-01T12:53:08.076Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zer0_1s.gitee.io/2020/07/29/DASCTF%207%E6%9C%88/</loc>
     
     <lastmod>2020-07-29T15:47:51.052Z</lastmod>

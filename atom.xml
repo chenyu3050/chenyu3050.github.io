@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zer0_1s.gitee.io/"/>
-  <updated>2020-07-29T15:47:51.052Z</updated>
+  <updated>2020-08-01T12:53:08.076Z</updated>
   <id>https://zer0_1s.gitee.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ROP__libc_csu_init深入学习</title>
+    <link href="https://zer0_1s.gitee.io/2020/08/01/ROP__libc_csu_init%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://zer0_1s.gitee.io/2020/08/01/ROP__libc_csu_init%E6%B7%B1%E5%85%A5%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-08-01T11:19:18.018Z</published>
+    <updated>2020-08-01T12:53:08.076Z</updated>
+    
+    <content type="html"><![CDATA[<hr><h2 id="ROP-libc-csu-init"><a href="#ROP-libc-csu-init" class="headerlink" title="ROP |    __libc_csu_init "></a>ROP |    __libc_csu_init </h2><p><img src= "/img/loading.gif" data-src="1.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;hr&gt;
+&lt;h2 id=&quot;ROP-libc-csu-init&quot;&gt;&lt;a href=&quot;#ROP-libc-csu-init&quot; class=&quot;headerlink&quot; title=&quot;ROP |    __libc_csu_init &quot;&gt;&lt;/a&gt;ROP |    __libc_csu_in
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>DASCTF 7月</title>
