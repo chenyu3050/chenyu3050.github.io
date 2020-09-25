@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chenyu3050.github.io/categories/index.html</loc>
+    
+    <lastmod>2020-09-25T07:52:26.657Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chenyu3050.github.io/link/index.html</loc>
+    
+    <lastmod>2020-09-25T07:42:57.979Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chenyu3050.github.io/tags/index.html</loc>
+    
+    <lastmod>2020-09-25T07:41:53.574Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chenyu3050.github.io/2020/07/29/DASCTF%207%E6%9C%88/</loc>
     
     <lastmod>2020-08-03T10:36:50.963Z</lastmod>
